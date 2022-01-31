@@ -1,0 +1,115 @@
+body{
+    font-family:'Trebuchet MS'; 
+    margin: 0;
+    height: auto;
+    background-color: rgb(139, 196, 243);
+    height: 100%;
+    min-height: 100%;
+}
+header img{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+main{
+    background-color: #a6c2d2;
+}
+footer{
+    background-color: white;
+}
+footer img{
+    width: 100%;
+}
+h1{
+    font-size: 5vw;
+    color: white;
+}
+h2{
+    color: #A6C2D2;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+h3{
+    text-transform: uppercase;
+    color: gold;
+}
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(139, 196, 243);
+    display: flex;
+    justify-content: space-evenly; 
+    padding-bottom: 5vw;
+}
+a:hover{
+        background-color: rgba(204, 204, 207, 0.486);
+        transition: ease-out 0.2s;
+}
+.title{
+    color: #A6C2D2;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.navigatie{
+    border-style: solid;
+    border-color: #black;
+    background-color: white;
+    width: 15%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+.active{
+    border-radius: 10%;
+}
+.lijn{
+    width: 100%;
+    height: 2.5vw;
+    background: rgb(139, 196, 243)
+}
+.home main img, .overons main img{
+    width: 100%;
+}
+.reviews main img{
+    width: 48.6%;
+    border-style: double;
+}
+.reviews a:visited{
+    color: black;
+}
+.overons{
+    color: white;
+}
+.overons p{
+    font-size: 3vw;
+}
+.totalwar main :first-child, .totalwar main :nth-child(2){
+    margin-top: 5%;
+    width: 49%;
+    display: inline-flex;
+}
+.totalwar main img{
+    width: 18%;
+}
+.totalwar main{
+    background-color: #302e2f;
+}
+.totalwar p{
+    color: white;
+    font-size: 4vw;
+    padding-bottom: 10vw;
+}
